@@ -16,7 +16,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input_file", type=str, default="data/sample.jsonl")
+    parser.add_argument("--input_file", type=str, default="data/example.jsonl")
     parser.add_argument("--export_file", type=str, default="output/model_output.jsonl")
     parser.add_argument("--model_name", type=str, default="chatgpt_baseline")
     parser.add_argument("--max_utterances", type=int, default=4)
