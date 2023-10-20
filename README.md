@@ -3,7 +3,6 @@ https://arxiv.org/abs/2305.14536
 
 🧮 MathDial is grounded in math word problems as well as student confusions which provide a challenging testbed for creating faithful and equitable dialogue tutoring models able to reason over complex information. 
 Current models achieve high accuracy in solving such problems but they fail in the task of teaching.
-![overview](generations.png)
 
 # Description
 >While automatic dialogue tutors hold great potential in making education personalized and
@@ -73,3 +72,5 @@ python interactivetutoring/evaluate.py --input_file "output/example_model_output
 Please cite the following:
 > Macina*, J., Daheim*, N., Chowdhury*, S.P., Sinha, T., Kapur, M., Gurevych, I., Sachan, M. (2023) [🧮 MathDial: A Dialogue Tutoring Dataset with Rich Pedagogical Properties Grounded in Math Reasoning Problems](https://arxiv.org/abs/2305.14536). _arXiv preprint arXiv:2305.14536_
 
+# Example
+![overview](images/generations.png)
