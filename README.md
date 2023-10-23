@@ -34,7 +34,7 @@ For full dataset see `data/mathdial.tsv` (tsv format) or `data/mathdial.jsonl` (
 - `student_profile` - student profile based on general math problem solving student misconceptions
 - `teacher_described_confusion` - teacher annotated student confusion in free text
 - `self-correctness` - teacher annotated whether student solved the problem correctly by the end of the conversation
-    - options: `Yes, Yes, but I had to reveal the answer, No`
+    - options: `Yes`, `Yes, but I had to reveal the answer`, `No`
 - `self-typical-confusion` - teacher annotated whether student exhibited a typical 7th grade confusion, Likert scale 1 (unlikely) to 5 (very likely)
 - `self-typical-interactions` - teacher annotated whether student exhibited typical 7th grade interactions, Likert scale 1 (unlikely) to 5 (very likely)
 - `conversation` - conversation in a string format with `|EOM|` delimiter between Teacher and Student personas  `Persona: (dialog_act) text` e.g. `Teacher: (focus) What is the difference?|EOM|Student: I mean ...|EOM|Teacher:`
@@ -45,7 +45,8 @@ For full dataset see `data/mathdial.tsv` (tsv format) or `data/mathdial.jsonl` (
 # Setup your environment
 ```bash 
 pip install -r requirements.txt
-export OPENAI_API_KEY="<your-openai-api-key>"
+echo "For implementing teacher and student models, access to OpenAI API is needed." 
+export OPENAI_API_KEY="<your-openai-api-key>" 
 ```
 
 # Teacher model - Generate next tutor response
