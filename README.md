@@ -23,7 +23,9 @@ The dataset is released publicly.
 
 # Dataset
 The dataset is available in the data folder. It contains all 2861 conversations. 
-For full dataset see `data/mathdial.tsv` (tsv format) or `data/mathdial.jsonl` (jsonl format) and for a small sample see `data/example.jsonl`
+The dataset is split into train and test - see `data/train.csv` and `data/test.csv` (for csv format). 
+For jsonl format, see `data/train.jsonl` and `data/test.jsonl`. To see a small sample of the dataset, look at `data/example.jsonl`
+Please note that each row in the file consists of full conversations between a teacher and a student delimited with special `|EOM|` notation. 
 
 ## Data Structure
 - `qid` - unique identifier of the problem
