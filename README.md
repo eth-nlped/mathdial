@@ -1,5 +1,7 @@
 # 🧮 MathDial: A Dialogue Tutoring Dataset with Rich Pedagogical Properties Grounded in Math Reasoning Problems
-https://arxiv.org/abs/2305.14536
+[ArXiv paper](https://arxiv.org/abs/2305.14536)
+
+[EMNLP 2023 Video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2023-11-13/6a13y89/mathdial-emnlp23-v5.mp4)
 
 🧮 MathDial is grounded in math word problems as well as student confusions which provide a challenging testbed for creating faithful and equitable dialogue tutoring models able to reason over complex information. 
 Current models achieve high accuracy in solving such problems but they fail in the task of teaching.
