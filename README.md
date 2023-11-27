@@ -29,6 +29,8 @@ The dataset is split into train and test - see `data/train.csv` and `data/test.c
 For jsonl format, see `data/train.jsonl` and `data/test.jsonl`. To see a small sample of the dataset, look at `data/example.jsonl`
 Please note that each row in the file consists of full conversations between a teacher and a student delimited with special `|EOM|` notation. 
 
+![dataset-comparison](images/image.png)
+
 ## Data Structure
 - `qid` - unique identifier of the problem
 - `scenario` - order of the problem in the data collection, out of the 5 scenarios in a session
