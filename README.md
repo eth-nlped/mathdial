@@ -3,6 +3,8 @@
 
 [EMNLP 2023 Video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2023-11-13/6a13y89/mathdial-emnlp23-v5.mp4)
 
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
 🧮 MathDial is grounded in math word problems as well as student confusions which provide a challenging testbed for creating faithful and equitable dialogue tutoring models able to reason over complex information. 
 Current models achieve high accuracy in solving such problems but they fail in the task of teaching.
 
@@ -81,3 +83,9 @@ Please cite the following:
 
 # Example
 ![overview](images/generations.png)
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
