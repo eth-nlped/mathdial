@@ -1,6 +1,8 @@
 # 🧮 MathDial: A Dialogue Tutoring Dataset with Rich Pedagogical Properties Grounded in Math Reasoning Problems
 [ArXiv paper](https://arxiv.org/abs/2305.14536)
 
+[HuggingFace Hub](https://huggingface.co/datasets/eth-nlped/mathdial)
+
 [EMNLP 2023 Video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2023-11-13/6a13y89/mathdial-emnlp23-v5.mp4)
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
