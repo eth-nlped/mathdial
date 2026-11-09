@@ -5,7 +5,7 @@
 
 [EMNLP 2023 Video](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2023-11-13/6a13y89/mathdial-emnlp23-v5.mp4)
 
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
 🧮 MathDial is grounded in math word problems as well as student confusions which provide a challenging testbed for creating faithful and equitable dialogue tutoring models able to reason over complex information. 
 Current models achieve high accuracy in solving such problems but they fail in the task of teaching.
@@ -93,8 +93,14 @@ Please cite the following:
 # Example
 ![overview](images/generations.png)
 
-This work is licensed under a
-[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+# License
+The MathDial dataset is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+If you use it, please cite our paper (see [Citation](#citation)).
 
-[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
-[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+The math word problems originate from [GSM8K](https://github.com/openai/grade-school-math) (MIT License).
+
+_Earlier versions of this README listed CC BY-SA 4.0. The license was aligned with the Hugging Face dataset card (CC BY 4.0) in November 2026._
+
+[cc-by]: https://creativecommons.org/licenses/by/4.0/
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
